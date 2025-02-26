@@ -17,11 +17,11 @@ const About = ({ data }) => {
   return (
     <section id="about">
       <div className="row">
-        <div className="three columns">
+        <div className="two columns">
           <img
             className="profile-pic"
             src={profilepic}
-            alt="Sonny's Profile Pic"
+            alt="Sherixx"
           />
         </div>
         <div className="nine columns main-col">
@@ -35,9 +35,7 @@ const About = ({ data }) => {
                 <span>{name}</span>
                 <br />
                 <span>
-                  {street}
-                  <br />
-                  {city} {state}, {zip}
+                  {city} ,{state}
                 </span>
                 <br />
                 <span>{phone}</span>
